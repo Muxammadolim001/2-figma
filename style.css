@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-photo/landscape-with-mountain-house-left-side_175994-566.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+}
+
+.container header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container header h2 {
+    color: #fff;
+}
+
+.container .links {
+    display: flex;
+    gap: 15px;
+}
+
+.container header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container header i {
+    font-size: 20px;
+    color: white;
+}
+
+.container h1 {
+    font-size: 70px;
+    margin: 30px 100px;
+    color: #fff;
+
+}
+
+.container p {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.container .logo {
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 84px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10;
+    margin-bottom: 5px;
+}
+
+.container .logo button {
+    padding: 15px 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 100px;
+    background-color: rgb(240, 180, 17);
+}
+
+.container .logo div {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container .logo div i {
+    font-size: 60px;
+    color: #fff;
+    background-color:;
+
+}
+
+.container .logo div span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.container .quti {
+    width: 100%;
+    height: 120px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .quti .soz {
+    width: 20%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 60px;
+    color: #fff;
+}
+
+.container .quti .soz .sayt {
+    width: 70%;
+    height: 30px;
+    background-color: red;
+}
+
+.container .quti .quti2 {
+    width: 50%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.container .quti .quti2 div {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    background-image: url(https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/master/pass/gettyimages-1146431497.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .quti .quti2 div p {
+    margin-right: 100%;
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+}
+
+/* .wrap */
+
+.wrap {
+    width: 100%;
+    height: 170vh;
+    /* background-color: dodgerblue; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+.wrap .img {
+    width: 100%;
+    height: 60%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.wrap .img .foto {
+    width: 50%;
+    height: 80%;
+    background-color: antiquewhite;
+    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-james-wheeler-417074.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrap .img .foto2 {
+    width: 50%;
+    height: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wrap .img .foto2 h1 {
+    font-size: 40px;
+}
+
+.wrap .img .foto2 button {
+    padding: 15px 40px;
+    margin-right: 190px;
+    margin-top: 30px;
+    border: none;
+    color: orange;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid orange;
+}
+
+.wrap .login {
+    width: 100%;
+    height: 50%;
+    background-color: pink;
+    background-image: url(https://lp-cms-production.imgix.net/2021-12/GettyImages-675834103.jpg?auto=format&w=1440&h=810&fit=crop&q=75);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.wrap .login .words {
+    width: 30%;
+    height: 70%;
+    /* background-color: red; */
+}
+
+.wrap .login .login1 {
+    width: 30%;
+    height: 70%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wrap .login .login1 input {
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 0 30px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #eee;
+}
+
+.wrap .login .login1 button {
+    padding: 15px 65px;
+    border: none;
+    border-radius: 25px;
+    background-color: orange;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper .foto2 {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wrapper .foto2 h1 {
+    font-size: 40px;
+}
+
+.wrapper .foto2 button {
+    padding: 15px 40px;
+    margin-right: 190px;
+    margin-top: 30px;
+    border: none;
+    color: orange;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid orange;
+}
+
+.wrapper .foto1 {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    background-image: url(https://c.stocksy.com/a/P1Z500/z9/1326267.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
